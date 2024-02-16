@@ -1,0 +1,1 @@
+for i in `seq 1 $1`; do /mnt/opt/jdk1.6.0_26/bin/java -jar ClientIP.jar $2 6000 true & 2>&1 > /dev/null; done;

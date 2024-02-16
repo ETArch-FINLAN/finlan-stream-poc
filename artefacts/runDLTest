@@ -1,0 +1,1 @@
+for i in `seq 1 $1`; do /mnt/opt/jdk1.6.0_26/bin/java -jar Client.jar Client$i movie true 2>&1 > /dev/null & done;
